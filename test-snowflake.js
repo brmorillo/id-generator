@@ -7,7 +7,7 @@ const snowflake = new Snowflake(epoch);
 console.time("Snowflake Generation");
 
 // Configurar o número de IDs a serem gerados
-const numIds = 10_000_000; // 10 milhões de IDs por iteração
+const numIds = 10_000_000; // 10 milhões de IDs por execução
 const ids = new Set();
 
 // Capturar uso inicial de memória

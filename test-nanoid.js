@@ -3,7 +3,7 @@ const { nanoid } = require("nanoid");
 console.time("Nanoid Generation");
 
 // Configurar o número de IDs a serem gerados
-const numIds = 10_000_000; // 1 milhão de IDs por iteração
+const numIds = 10_000_000; // 10 milhões de IDs por execução
 const ids = new Set();
 
 // Capturar uso inicial de memória
